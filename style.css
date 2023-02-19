@@ -11,9 +11,8 @@ html, body {
 .light-information {
     background-color: rgb(4, 101, 101);
     color: white;
-    padding-left: 1%;
-    padding-right: 1%;
-    width: 30%;
+    padding: 2%;
+    width: 35%;
 }
 
 .heavy-information {
@@ -28,4 +27,50 @@ img {
 
 .picture-container {
     text-align: center;
+}
+
+.display-name-light-information {
+    font-size: 0%;
+}
+
+.screen-to-small-message {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    .information-container {
+        display: inline;
+    }
+
+    .light-information {
+        width: 100%;
+        padding: 5%;
+    }
+
+    .display-name-light-information {
+        font-size: 100%;
+        text-align: center;
+    }
+
+    .display-name-heavy-information {
+        font-size: 0%;
+    }
+}
+
+@media (max-width: 230px) {
+
+    .information-container {
+        display: none;
+    }
+
+    .screen-to-small-message {
+        display: contents;
+        text-align: center;
+    }
+    
+    body {
+        background-color: black;
+        font-size: large;
+        color: white;
+    }
 }

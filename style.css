@@ -1,4 +1,4 @@
-html, body {
+body {
     padding: 0;
     margin: 0;
 }
@@ -58,7 +58,6 @@ img {
 }
 
 @media (max-width: 230px) {
-
     .information-container {
         display: none;
     }
@@ -70,6 +69,7 @@ img {
     
     body {
         background-color: black;
+        padding: 10%;
         font-size: large;
         color: white;
     }

@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import { Notes } from "@animotion/core";
 
 	export const props = {
@@ -12,5 +13,5 @@
 </Notes>
 
 <div class="flex items-center justify-center h-full">
-	<img src="/images/slide_12.png" alt="Books" class="max-h-[85vh] max-w-full rounded-xl shadow-2xl border border-neutral-800" />
+	<img src="{base}/images/slide_12.png" alt="Books" class="max-h-[85vh] max-w-full rounded-xl shadow-2xl border border-neutral-800" />
 </div>

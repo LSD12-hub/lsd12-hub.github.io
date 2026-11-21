@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	export const props = { background: '#18181b' };
 </script>
 
@@ -10,7 +11,7 @@
 		<div class="flex flex-col bg-neutral-900/70 border border-neutral-800 rounded-2xl p-6 relative overflow-hidden shadow-xl">
 			<div class="flex items-center gap-4 mb-5">
 				<img
-					src="/images/plumbing.jpg"
+					src="{base}/images/plumbing.jpg"
 					alt="Plumbing"
 					class="w-20 h-20 rounded-xl object-cover border border-neutral-700 shadow-md"
 				/>
@@ -52,7 +53,7 @@
 		<div class="flex flex-col bg-neutral-900/70 border border-neutral-800 rounded-2xl p-6 relative overflow-hidden shadow-xl">
 			<div class="flex items-center gap-4 mb-5">
 				<img
-					src="/images/porcelain.jpg"
+					src="{base}/images/porcelain.jpg"
 					alt="Porcelain"
 					class="w-20 h-20 rounded-xl object-cover border border-neutral-700 shadow-md"
 				/>

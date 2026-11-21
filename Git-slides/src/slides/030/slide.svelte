@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { onMount } from 'svelte';
 	import { tween } from '@animotion/motion';
 	import {
@@ -249,7 +250,7 @@
 
 				<!-- Exact 1:1 Pixel-Aligned Reference Logo -->
 				<image
-					href="/images/leetcode_dark_transparent.png"
+					href="{base}/images/leetcode_dark_transparent.png"
 					x={fourier.imageBounds.x}
 					y={fourier.imageBounds.y}
 					width={fourier.imageBounds.width}

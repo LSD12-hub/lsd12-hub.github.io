@@ -16,7 +16,7 @@ const config = {
 			strict: false
 		}),
 		paths: {
-			base: process.env.BASE_PATH || ''
+			base: process.env.BASE_PATH || (process.env.NODE_ENV === 'production' ? '/Git-slides' : '')
 		}
 	}
 };

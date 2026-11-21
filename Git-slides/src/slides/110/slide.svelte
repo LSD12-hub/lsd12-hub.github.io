@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import { Notes } from "@animotion/core";
 </script>
 
@@ -9,5 +10,5 @@
 </Notes>
 
 <div class="flex items-center justify-center h-full">
-	<img src="/images/slide_11.png" alt="How to build git" class="max-h-[85vh] max-w-full rounded-xl shadow-2xl border border-neutral-700" />
+	<img src="{base}/images/slide_11.png" alt="How to build git" class="max-h-[85vh] max-w-full rounded-xl shadow-2xl border border-neutral-700" />
 </div>

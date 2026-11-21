@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { Action, Notes } from '@animotion/core';
 
 	let step = $state(0);
@@ -37,7 +38,7 @@
 		>
 			<div class="flex items-center gap-4 mb-5 pb-4 border-b border-neutral-800">
 				<img
-					src="/images/plumbing.jpg"
+					src="{base}/images/plumbing.jpg"
 					alt="Plumbing Pipes"
 					class="w-20 h-20 rounded-xl object-cover border border-neutral-700/80 shadow-md transition-transform duration-500 {step >= 1 ? 'scale-100' : 'scale-95'}"
 				/>
@@ -87,7 +88,7 @@
 		>
 			<div class="flex items-center gap-4 mb-5 pb-4 border-b border-neutral-800">
 				<img
-					src="/images/porcelain.jpg"
+					src="{base}/images/porcelain.jpg"
 					alt="Porcelain Fixture"
 					class="w-20 h-20 rounded-xl object-cover border border-neutral-700/80 shadow-md transition-transform duration-500 {step >= 2 ? 'scale-100' : 'scale-95'}"
 				/>

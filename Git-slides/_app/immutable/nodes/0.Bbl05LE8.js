@@ -1,0 +1,1 @@
+import{B as e,E as t,F as n,H as r,T as i,b as a,h as o,rt as s}from"../chunks/BCjqH7gU.js";import"../chunks/xihTtKlq.js";var c=s({prerender:()=>!0,ssr:()=>!1});function l(s,c){var l=t();o(`12qhfyh`,t=>{n(()=>{e.title=`Learn programming the fun way by building git`})});var u=r(l);a(u,()=>c.children),i(s,l)}export{l as component,c as universal};

@@ -1,0 +1,38 @@
+/* Custom styles matching the presentation theme */
+
+@layer overrides {
+	:root {
+		--teal: #1e9a8e;
+		--teal-dark: #15736a;
+		--bg-cream: #faf7f2;
+		--bg-dark: #0f172a;
+	}
+
+	.font-title {
+		font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+	}
+
+	.slide-card {
+		background: #ffffff;
+		border: 1.5px solid #2d3748;
+		border-radius: 4px;
+	}
+
+	.diagram-box-commit {
+		background-color: #1e9a8e;
+		color: #ffffff;
+		border: 1.5px solid #167a70;
+	}
+
+	.diagram-box-tree {
+		background-color: #fff9e6;
+		color: #1a202c;
+		border: 1.5px solid #1e9a8e;
+	}
+
+	.diagram-box-blob {
+		background-color: #0d1117;
+		color: #ffffff;
+		border: 1.5px solid #30363d;
+	}
+}
